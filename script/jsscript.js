@@ -1,9 +1,9 @@
 var timer = null;
-var countdownNumber = 10;
+var countdownNumber = 3;
 var changeState = function (state) {
 	document.body.className = "body-state" + state;
 	clearInterval(timer);
-	countdownNumber = 10;
+	countdownNumber = 3;
 	document.getElementById('countdown').innerHTML=countdownNumber;
 
 
